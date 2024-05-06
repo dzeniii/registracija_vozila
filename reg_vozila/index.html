@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija Vozila</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"> Registracija Vozila</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-service">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why-us">Zašto mi ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#calculator">Registracija vozila</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <form action="login.php">
+                            <input class="btn btn-success" type="submit" value="Registracija" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End navbar section -->
+
+    <!-- Main secition -->
+    <section class="main-section" id="our-service">
+        <div class="container pt-md-5 pt-sm-3">
+            <div class="row align-items-center">
+                <div class="col-md-6 py-5">
+                    <h1 class="fw-bold">
+                        Brza registracija vozila, jednostavna kao vožnja.
+                    </h1>
+                    <p class="mt-4">
+                       Nudimo brzo i efikasno rješenje za registraciju vozila online, štedeći vaše vrijeme. Naša usluga omogućuje vam da iz udobnosti svog doma obavite sve potrebne korake.
+                    </p>
+                    <button class="btn btn-success mt-4">Registruj se sad!</button>
+                </div>
+                <div class="col-md-6 py-5 d-flex align-items-center justify-content-start" id="car-img">
+                    <div class="bg-car"></div>
+                    <img src="https://clipart-library.com/images/8c65pyMgi.png" class="w-100"
+                        alt="car" id="img-car" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End main section -->
+    
+
+    <!-- Why us section -->
+    <section class="why-us-section" id="why-us">
+        <div class="container p-md-5">
+            <div class="why-us-tagline">
+                <h1 class="fw-bold">Zašto mi ?</h1>
+                <p class="mt-3">Zašto izabrati nas za registraciju vozila?</p>
+            </div>
+
+            <div class="why-us-card">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card-item">
+                            <img class="icon-card" src="https://i.ibb.co/TM3kT2t/icon-complete.png" alt="" />
+                            <h2 class="card-title">Brzina i jednostavnost</h2>
+                            <p class="card-desc">
+                                Omogućavamo vam da bez gubljenja vremena obavite sve korake registacije vozila iz udobnosti svog doma.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card-item">
+                            <img class="icon-card" src="https://i.ibb.co/GHMcTvp/icon-price.png" alt="" />
+                            <h2 class="card-title">Pouzdanost i sigurnost</h2>
+                            <p class="card-desc">
+                               S našim iskusnim timom i sigurnim online sustavom možete biti sigurni da će vaša registracija biti pravilno i sigurno provedena.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card-item">
+                            <img class="icon-card" src="https://i.ibb.co/3dLJ0s3/icon-24hrs.png" alt="" />
+                            <h2 class="card-title">Profesionalna podrška</h2>
+                            <p class="card-desc">
+                                Pružamo vam stručnu podršku i odgovore na sva vaša pitanja kako biste bili potpuno sigurni u postupak registracije.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card-item">
+                            <img class="icon-card" src="https://i.ibb.co/Tb6PTFc/icon-professional.png"  alt="" />
+                <h2 class=" card-title">Konkurentne cijene</h2>
+                            <p class="card-desc">
+                                Nudimo konkurentne cijene, omogućujuči vam da uštedite novac dok legalno registrirate svoje vozilo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End why us section -->
+
+
+   <!-- Calculator Section -->
+<section class="calculator-section" id="calculator">
+    <div class="container">
+        <h2>Kalkulator registracije vozila</h2>
+        <div class="calculator">
+            <div class="form-group">
+                <label for="power">Snaga motora:</label>
+                <input type="number" id="power" class="form-control" placeholder="Snaga motora (kW)">
+            </div>
+            <div class="form-group">
+                <label for="vehicle-type">Vrsta vozila:</label>
+                <select id="vehicle-type" class="form-control">
+                    <option value="putno">Putno vozilo</option>
+                    <option value="teretno">Teretno vozilo</option>
+                    <option value="motorno">Motorno vozilo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="year">Godište vozila:</label>
+                <input type="number" id="year" class="form-control" placeholder="Godište vozila">
+            </div>
+            <div class="form-group">
+                <label for="color">Boja vozila:</label>
+                <input type="text" id="color" class="form-control" placeholder="Boja vozila">
+            </div>
+            <button class="btn btn-primary" onclick="calculateRegistration()">Registracija</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</section>
+   <!-- End calculator section-->
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row">
+                    <h1>Kontaktirajte Nas ! </h1>
+            </div>
+            <div class="row">
+                    <h4 style="text-align:center">Imate li dodatna pitanja ili želite saznati više o našim uslugama ?</h4>
+            </div>
+            <div class="row input-container">
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <input type="text" required />
+                            <label>Vaše ime</label> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input">
+                            <input type="text" required />
+                            <label>Email</label> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input" style="float:right;">
+                            <input type="text" required />
+                            <label>Mobitel</label> 
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <textarea required></textarea>
+                            <label>Poruka</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="btn-lrg submit-btn">Pošaljite poruku</div>
+                    </div>
+            </div>
+        </div>
+	</section>
+
+
+    <footer id="footer">
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="address me-5">
+                            <p>Kulina bana br.2 (Skver), Tuzla, 75000 BiH</p>
+                            <p>registracijavozila@gmail.com</p>
+                            <p>+387 35 258 454</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="navigation">
+                            <p class="item-navigation">Početna</p>
+                            <p class="item-navigation">Zašto mi</p>
+                            <p class="item-navigation">Usluge</p>
+                            <p class="item-navigation">Kontakt</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="sosmed">
+                            <p>Ostanite u kontaktu s nama</p>
+                            <div class="d-flex">
+                                <i class="bi bi-facebook" id="icon-facebook"></i>
+                                <i class="bi bi-instagram" id="icon-instagram"></i>
+                                <i class="bi bi-twitter" id="icon-twitter"></i>
+                                <i class="bi bi-envelope-at-fill" id="icon-email"></i>
+                                <i class="bi bi-twitch" id="icon-twitch"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="copyright me-5">
+                            <p class="fw-semibold">Registracija vozila 2024</p>
+                            <div class="logo-copyright"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+
+   
+</body>
+
+</html>
